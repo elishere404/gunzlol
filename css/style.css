@@ -1,55 +1,48 @@
- body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-    }
+/* Form */
+#my-form {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
 
-    .container {
-      max-width: 400px;
-      margin: 0 auto;
-      padding: 20px;
-      background-color: #fff;
-      border-radius: 5px;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    }
+/* Labels */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
 
-    h2 {
-      font-size: 24px;
-      text-align: center;
-      margin-bottom: 20px;
-    }
+/* Inputs */
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
 
-    form {
-      display: flex;
-      flex-direction: column;
-    }
+/* Button */
+#my-form-button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
-    label {
-      font-weight: bold;
-    }
+/* Status message */
+#my-form-status {
+  margin-top: 10px;
+  font-size: 14px;
+}
 
-    input[type="email"],
-    input[type="text"] {
-      padding: 10px;
-      margin-bottom: 10px;
-      border: 1px solid #ccc;
-      border-radius: 3px;
-    }
-
-    button {
-      background-color: #007BFF;
-      color: #fff;
-      border: none;
-      padding: 10px;
-      border-radius: 3px;
-      cursor: pointer;
-    }
-
-    button:hover {
-      background-color: #0056b3;
-    }
-
-    p#my-form-status {
-      margin-top: 10px;
-      text-align: center;
-      color: #007BFF;
-    }
+/* Responsive styling */
+@media (max-width: 576px) {
+  #my-form {
+    width: 100%;
+  }
+}
